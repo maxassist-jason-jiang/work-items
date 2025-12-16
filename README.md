@@ -19,7 +19,7 @@
 15. Inside on server.xml and context.xml, change the old tailscale urls to the new ones
 16. Update the locations of the certs to C:\project\tailscale.
 
-# Databases setup
+# Databases setup (courtesy of the scrum god)
 1. Login to pgadmin
 2. Register a new server
 3. Host name is the tailscale name
