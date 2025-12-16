@@ -31,3 +31,8 @@
 9. go to your old database on pgadmin, and backup rsm_central_local
 10. go to your new central db, and restore it. Ensure that you only do this once (restoring multiple times can cause issues)
 11. Do the same thing with rsm form report, etc.
+
+# Tailscale setup
+1. Install tailscale
+2. Change all references in your context.xml and tomcat.xml inside of the tomcat folder, change the old tailscale urls to the new ones.
+3. Run the renew_my_cert
