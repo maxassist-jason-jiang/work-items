@@ -27,10 +27,11 @@
 5. maintenance database name is postgres
 6. username is postgres
 7. password set to
-8. Once it's registered, create a new database, call it rsm_central_local
-9. go to your old database on pgadmin, and backup rsm_central_local
-10. go to your new central db, and restore it. Ensure that you only do this once (restoring multiple times can cause issues)
-11. Do the same thing with rsm form report, etc.
+8. Once the server is registered, create two users. Right click on the server, and create user appuser and viewuser
+9. Once it's registered, create a new database, call it rsm_central_local
+10. go to your old database on pgadmin, and backup rsm_central_local
+11. go to your new central db, and restore it. Ensure that you only do this once (restoring multiple times can cause issues)
+12. Do the same thing with rsm form report, etc.
 
 # Tailscale setup
 1. Install tailscale
