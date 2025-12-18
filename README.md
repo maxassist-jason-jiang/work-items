@@ -1,5 +1,12 @@
 # work-items
 
+# Chrome setup
+
+1. Open google chrome
+2. Sign into your google account
+3. Click on the three dots on the right side
+4. Turn on sync (ENSURE THIS IS ON YOUR OLD COMPUTER TOO)
+
 # IntelliJ setup
 
 1. Copy tomcat from old computer
@@ -24,7 +31,6 @@
 2. Once downloaded, go to "C:\Program Files\PostgreSQL\17\data\pg_hba.conf"
 3. Replace the last line with `host    all     	all             100.64.0.0/10           scram-sha-256`
 4. Login to pgadmin
-5. 
 6. Register a new server
 7. Host name is the tailscale name
 8. Port is 5432
