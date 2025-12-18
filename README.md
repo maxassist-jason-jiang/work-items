@@ -37,8 +37,8 @@
 9. maintenance database name is postgres
 10. username is postgres
 11. password set to
-12. Once the server is registered, create two users. Right click on the server, and create user appuser and viewuser
-13. Once it's registered, create a new database, call it rsm_central_local
+12. Once the server is registered, create two users. Right click on the server, and create user appuser and viewuser. Use the correct passwords
+13. Once it's registered, create a new database, call it rsm_central_local. Owner of this is postgres
 14. go to your old database on pgadmin, and backup rsm_central_local
 15. go to your new central db, and restore it. Ensure that you only do this once (restoring multiple times can cause issues)
 16. Do the same thing with rsm form report, etc.
