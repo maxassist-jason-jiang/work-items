@@ -20,18 +20,22 @@
 16. Update the locations of the certs to C:\project\tailscale.
 
 # Databases setup (courtesy of the scrum god)
-1. Login to pgadmin
-2. Register a new server
-3. Host name is the tailscale name
-4. Port is 5432
-5. maintenance database name is postgres
-6. username is postgres
-7. password set to
-8. Once the server is registered, create two users. Right click on the server, and create user appuser and viewuser
-9. Once it's registered, create a new database, call it rsm_central_local
-10. go to your old database on pgadmin, and backup rsm_central_local
-11. go to your new central db, and restore it. Ensure that you only do this once (restoring multiple times can cause issues)
-12. Do the same thing with rsm form report, etc.
+1. Open google,download postgres
+2. Once downloaded, go to "C:\Program Files\PostgreSQL\17\data\pg_hba.conf"
+3. Replace the last line with `host    all     	all             100.64.0.0/10           scram-sha-256`
+4. Login to pgadmin
+5. 
+6. Register a new server
+7. Host name is the tailscale name
+8. Port is 5432
+9. maintenance database name is postgres
+10. username is postgres
+11. password set to
+12. Once the server is registered, create two users. Right click on the server, and create user appuser and viewuser
+13. Once it's registered, create a new database, call it rsm_central_local
+14. go to your old database on pgadmin, and backup rsm_central_local
+15. go to your new central db, and restore it. Ensure that you only do this once (restoring multiple times can cause issues)
+16. Do the same thing with rsm form report, etc.
 
 # Tailscale setup
 1. Install tailscale
