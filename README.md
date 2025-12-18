@@ -37,7 +37,9 @@
 
 26. In project structure -> artifacts -> ensure all the exploded war's output directories are in C:\Users\Jason\IdeaProjects\maven-project\central\target\server (where server is like centralServer, etc)
 27. Inside on server.xml and context.xml, change the old tailscale urls to the new ones
-28. Update the locations of the certs to C:\project\tailscale.
+28. <img width="1287" height="243" alt="image" src="https://github.com/user-attachments/assets/bcd2696d-af56-4428-b60c-81ac8f3616ce" />
+
+29. Update the locations of the certs to C:\project\tailscale.
 
 # Databases setup (courtesy of the scrum god)
 1. Open google,download postgres
