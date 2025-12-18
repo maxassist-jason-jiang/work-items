@@ -29,7 +29,7 @@
 18. Add a local tomcat
 19. HTTP port 8080
 20. HTTPs port 443
-21. JMX port 1099
+21. JMX port 1099, NO AJP PORT
 22. Save it first
 23. Refresh all maven dependencies and reload
 24. Add the 6 exploded war artifacts
