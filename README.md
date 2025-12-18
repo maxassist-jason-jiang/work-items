@@ -57,6 +57,7 @@
 14. <img width="511" height="815" alt="image" src="https://github.com/user-attachments/assets/b482e52e-44fd-44bc-b646-ac5c4d9aa3e0" />
 
 15.Viewuser has the following roles
+
 <img width="561" height="889" alt="image" src="https://github.com/user-attachments/assets/b0b6b5b8-e39d-4702-a736-2b4f136adf56" />
 
 16. Once it's registered, create a new database, call it rsm_central_local. Owner of this is postgres
