@@ -74,13 +74,14 @@
 1. Install Node
 2. Run in cmd `npm install -g npm@latest`
 3. Run in cmd `npm install -g sass`
-4. Install the plugin File watcher
+4. Reboot your PC
+5. Install the plugin File watcher
 <img width="1988" height="612" alt="image" src="https://github.com/user-attachments/assets/6a5a9094-70ae-4e69-bc1c-c30bd6c95d28" />
 
-5. Go to Settings -> Tools -> File Watchers
-6. Here are the following settings
-7. Arguments -> `--no-source-map $FileDir$/$FileName$:$ModuleFileDir$/webapp/css/$FileNameWithoutExtension$.css`
-8. Output paths to refresh -> `$FileName$:$ProjectFileDir$/report/src/webapp/css/$FileNameWithoutExtension$.css`
+6. Go to Settings -> Tools -> File Watchers
+7. Here are the following settings
+8. Arguments -> `--no-source-map $FileDir$/$FileName$:$ModuleFileDir$/webapp/css/$FileNameWithoutExtension$.css`
+9. Output paths to refresh -> `$FileName$:$ProjectFileDir$/report/src/webapp/css/$FileNameWithoutExtension$.css`
 <img width="1863" height="1527" alt="image" src="https://github.com/user-attachments/assets/db73820d-6d4b-49b1-ae30-14b006b59309" />
 
-9. 
+10. 
